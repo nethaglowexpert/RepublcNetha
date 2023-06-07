@@ -43,3 +43,8 @@
 .hamburger-active > span:nth-child(3) {
   @apply -rotate-45;
 }
+
+.testimonial-slide {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}

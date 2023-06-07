@@ -32,14 +32,50 @@ window.addEventListener("click", function (e) {
   }
 });
 
-// Tombol darkmode
-const darkToggle = document.querySelector("#dark-toggle");
-const html = document.querySelector("html");
-
-darkToggle.addEventListener("click", function () {
-  if (darkToggle.checked) {
-    html.classList.add("dark");
-  } else {
-    html.classList.remove("dark");
-  }
+// Slide show swipe
+var swiper = new Swiper(".swiper-container", {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
 });
+
+// Slide show otomatis
+const testimonialSlide = document.querySelector(".testimonial-slide");
+const testimonialItems = Array.from(testimonialSlide.children);
+const slideCount = testimonialItems.length;
+
+testimonialItems.forEach((item, index) => {
+  item.style.left = `${index * 100}%`;
+});
+
+let currentSlide = 0;
+const slideInterval = setInterval(() => {
+  moveToSlide((currentSlide + 1) % slideCount);
+}, 1000);
+
+function moveToSlide(slideIndex) {
+  testimonialSlide.style.transform = `translateX(-${slideIndex * 100}%)`;
+  currentSlide = slideIndex;
+}
+
+// // Stop slide interval when mouse is over the testimonial section
+// const testimonialSection = document.querySelector(".testimonial");
+// testimonialSection.addEventListener("mouseenter", () => {
+//   clearInterval(slideInterval);
+// });
+
+// // Resume slide interval when mouse leaves the testimonial section
+// testimonialSection.addEventListener("mouseleave", () => {
+//   slideInterval = setInterval(() => {
+//     moveToSlide((currentSlide + 1) % slideCount);
+//   }, 3000);
+// });
+
+// Carosuel script gambar produk

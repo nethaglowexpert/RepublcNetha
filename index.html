@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Republic of dr. Netha Glow Expert</title>
     <link rel="stylesheet" href="dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <!-- Header section start -->
@@ -58,21 +62,28 @@
                   <a
                     href="#about"
                     class="mx-8 flex py-2 text-base text-dark group-hover:text-primary"
-                    >Tentang Kami</a
+                    >Tentang Program</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#testimoni"
+                    class="mx-8 flex py-2 text-base text-dark group-hover:text-primary"
+                    >Testimonial Member</a
                   >
                 </li>
                 <li class="group">
                   <a
                     href="#services"
                     class="mx-8 flex py-2 text-base text-dark group-hover:text-primary"
-                    >Layanan Kami</a
+                    >Detail Program</a
                   >
                 </li>
                 <li class="group">
                   <a
-                    href="#testimony"
+                    href="#cta"
                     class="mx-8 flex py-2 text-base text-dark group-hover:text-primary"
-                    >Testimoni</a
+                    >Join Reseller</a
                   >
                 </li>
               </ul>
@@ -88,20 +99,51 @@
     <section id="home" class="pt-36">
       <div class="container">
         <div class="flex flex-wrap">
-          <div class="w-full self-center px-4 lg:w-1/2">
+          <div class="w-full self-center px-4 text-center">
             <h1 class="text-4xl font-semibold capitalize text-primary">
-              Jadilah Bagian dari Sukses Bersama Kami!
+              Mau Join Reseller?
               <span
                 class="mt-5 block text-4xl font-bold capitalize text-dark lg:text-5xl"
-                >Bergabunglah sebagai Reseller dr. Netha</span
+                >Tapi malas saingan harga dengan owner?</span
               >
             </h1>
-            <h2 class="mb-1 mt-5 text-4xl font-medium capitalize">
-              Raih Penghasilan Tanpa Batas!
+            <h2
+              class="mb-5 mt-5 text-2xl font-medium capitalize lg:mb-1 lg:text-4xl"
+            >
+              Poin yang dikumpulin dikit dikit hangus yang akhirnya nggak bisa
+              bisa di claim?
             </h2>
+            <div class="w-full self-end px-4">
+              <div class="relative mt-10 lg:right-0 lg:mt-2">
+                <img
+                  src="dist/img/profil-owner-hero-2.png"
+                  alt="dr. Netha Glow Expert"
+                  class="mx-auto max-w-full"
+                />
+                <span
+                  class="absolute bottom-0 left-1/2 -z-10 -translate-x-1/2 md:scale-125"
+                >
+                  <svg
+                    width="400"
+                    height="400"
+                    viewBox="0 0 200 200"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill="#14b8a6"
+                      d="M30.7,-26.9C46.8,-23,71.9,-20,76.8,-10.8C81.8,-1.5,66.6,14.1,53.3,24.7C40,35.4,28.5,41.1,15.4,48.4C2.4,55.8,-12.3,64.9,-28.6,64.9C-44.9,64.9,-62.9,55.8,-63.8,42.5C-64.6,29.3,-48.3,11.8,-42.5,-5.1C-36.7,-22.1,-41.4,-38.5,-36,-44.3C-30.7,-50,-15.4,-45.2,-4,-40.4C7.3,-35.5,14.5,-30.7,30.7,-26.9Z"
+                      transform="translate(100 100) scale(0.9)"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
             <p class="mb-5 mt-5 text-2xl font-medium text-red-700">
-              1000% Owner dan orang dalam tidak ikut jualan !!!
+              Join di Berbagai Reseller Brand, ngak pernah bisa claim Reward?
             </p>
+            <h3 class="mb-10 mt-10 text-3xl font-medium text-secondary">
+              Saatnya kamu yang lebih kaya dari pada Owner
+            </h3>
             <p class="mb-10 mt-10 font-medium leading-relaxed text-secondary">
               Simak video dibawah ini terkait produk anti rugi yang akan kamu
               jual
@@ -112,82 +154,75 @@
               >Hubungi Kami</a
             > -->
           </div>
-
-          <div class="w-full self-end px-4 lg:w-1/2">
-            <div class="relative mt-10 lg:right-0 lg:mt-0">
-              <img
-                src="dist/img/profil-owner-hero.png"
-                alt="dr. Netha Glow Expert"
-                class="mx-auto max-w-full"
-              />
-              <span
-                class="absolute bottom-0 left-1/2 -z-10 -translate-x-1/2 md:scale-125"
-              >
-                <svg
-                  width="400"
-                  height="400"
-                  viewBox="0 0 200 200"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill="#14b8a6"
-                    d="M30.7,-26.9C46.8,-23,71.9,-20,76.8,-10.8C81.8,-1.5,66.6,14.1,53.3,24.7C40,35.4,28.5,41.1,15.4,48.4C2.4,55.8,-12.3,64.9,-28.6,64.9C-44.9,64.9,-62.9,55.8,-63.8,42.5C-64.6,29.3,-48.3,11.8,-42.5,-5.1C-36.7,-22.1,-41.4,-38.5,-36,-44.3C-30.7,-50,-15.4,-45.2,-4,-40.4C7.3,-35.5,14.5,-30.7,30.7,-26.9Z"
-                    transform="translate(100 100) scale(0.9)"
-                  />
-                </svg>
-              </span>
+        </div>
+        <div class="flex items-center justify-center">
+          <div class="container mx-auto px-4">
+            <!-- <h1 class="text-4xl font-bold mb-4">Selamat Datang di Landing Page</h1> -->
+            <div class="video-container">
+              <iframe
+                src="https://www.youtube.com/embed/cBikeWDJRMc"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                class=""
+              ></iframe>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Hero section end -->
-    <div class="flex items-center justify-center bg-gray-100">
-      <div class="container mx-auto px-4">
-        <!-- <h1 class="text-4xl font-bold mb-4">Selamat Datang di Landing Page</h1> -->
-        <div class="video-container">
-          <iframe
-            src="https://www.youtube.com/embed/cBikeWDJRMc"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-            class=""
-          ></iframe>
-        </div>
-      </div>
-    </div>
 
     <!-- About section start -->
     <section id="about" class="pb-32 pt-36">
       <div class="container">
         <div class="flex flex-wrap">
-          <div class="mb-10 w-full px-4 lg:w-1/2">
-            <h4 class="mb-3 text-lg font-bold uppercase text-primary">
-              Tentang Kami
+          <div class="mb-10 w-full px-4">
+            <h4
+              class="mb-3 text-center text-lg font-bold uppercase text-primary"
+            >
+              Tentang Program
             </h4>
-            <h2 class="mb-5 max-w-md text-3xl font-bold text-dark lg:text-4xl">
-              Mengenal dr. Netha Glow Expert
+            <h2
+              class="mb-5 text-center text-3xl font-bold capitalize text-dark lg:text-4xl"
+            >
+              Kami yang promosikan, kalian yang dapat uang mau?
             </h2>
-            <p class="max-w-xl text-base font-medium text-secondary lg:text-lg">
-              Kami adalah PT. Netha Glow Expert atau yang biasa dikenal dr.
-              Netha Glow Expert, pegiat dan penyedia produk skincare & dekoratif
-              wajah yang revolusioner. Kami ingin mengajak Kamu untuk bergabung
-              dengan kami sebagai reseller dan menikmati peluang bisnis yang
-              menarik + TABUNGAN MASA DEPAN !
+            <p
+              class="text-justify text-base font-medium text-secondary lg:text-lg"
+            >
+              Memperkenalkan PT. Netha Glow Expert merupakan perusahaan
+              kecantikan yang berawal dari Klinik Kecantikan yang sudah berdiri
+              sejak tahun 2012 dan telah berkembang dengan pesat hingga kini
+              kami telah memiliki 10.000+ pasien yang tersebar di hampir seluruh
+              wilayah Indonesia bahkan Luar Negeri.
             </p>
           </div>
-          <div class="w-full px-4 lg:w-1/2">
+          <div class="w-full px-4">
+            <p
+              class="mb-6 text-justify text-base font-medium text-secondary lg:text-lg"
+            >
+              dr. Netha Glow Expert memahami bahwa setiap orang berhak cantik
+              dan mendambakan kulit yang sehat. kami hadir untuk memberikan
+              solusi terhadap berbagai masalah kulit wajah yang dialami wanita
+              Indonesia.
+            </p>
+            <p
+              class="mb-6 text-justify text-base font-medium text-secondary lg:text-lg"
+            >
+              Produk terbaru kami adalah Flawless With Me Creamy Foundation
+              dengan tekstur yang ringan membuat make-up terlihat lebih natural.
+              Dengan kandungan Brightening Agent yang mampu membantu menyamarkan
+              noda hitam dan mengontrol minyak berlebih serta mencegah komedo
+              sehingga kulit wajah tampak lebih halus dan lembut.
+            </p>
             <h3
-              class="mb-4 text-2xl font-semibold text-dark lg:pt-10 lg:text-3xl"
+              class="mb-4 text-center text-2xl font-semibold text-dark lg:pt-10 lg:text-3xl"
             >
               Ikuti Sosial Media
             </h3>
-            <p class="mb-6 text-base font-medium text-secondary lg:text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim et
-              ducimus modi dolorem itaque, nesciunt reiciendis!
-            </p>
-            <div class="flex items-center">
+            <div class="flex items-center justify-center">
               <!-- Youtube icon start -->
               <a
                 href="#"
@@ -277,12 +312,282 @@
       </div>
     </section>
     <!-- About section end -->
+    <!-- Testimoni Chat Start -->
+    <section id="testimoni" class="pt-10">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto mb-16 text-center">
+            <h4 class="mb-2 text-lg font-semibold text-primary">Testimonial</h4>
+            <h2
+              class="mb-2 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl"
+            >
+              Ini Kata Mereka Yang Sudah Bergabung
+            </h2>
+            <div class="swiper-container testimonial overflow-hidden">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide testimonial-slide">
+                  <div class="mb-10 mt-10">
+                    <img
+                      class="mx-auto mb-4 h-16 w-16 rounded-full"
+                      src="dist/img/profil-owner-hero.png"
+                      alt="Testimonial 1"
+                    />
+                    <p class="text-center italic text-gray-700">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua."
+                    </p>
+                    <p class="mx-auto mt-2 text-center font-semibold">
+                      John Doe
+                    </p>
+                    <p class="text-center text-gray-500">CEO, Company A</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="mb-10 mt-10">
+                    <img
+                      class="mx-auto mb-4 h-16 w-16 rounded-full"
+                      src="dist/img/profil-owner-hero.png"
+                      alt="Testimonial 1"
+                    />
+                    <p class="text-center italic text-gray-700">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua."
+                    </p>
+                    <p class="mx-auto mt-2 text-center font-semibold">
+                      Netty Herawati
+                    </p>
+                    <p class="text-center text-gray-500">CEO, Company B</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="mb-10 mt-10">
+                    <img
+                      class="mx-auto mb-4 h-16 w-16 rounded-full"
+                      src="dist/img/profil-owner-hero.png"
+                      alt="Testimonial 1"
+                    />
+                    <p class="text-center italic text-gray-700">
+                      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Voluptas sint itaque deserunt illum dolores iure eligendi
+                      neque voluptatum necessitatibus ut ipsum, adipisci
+                      possimus vero accusantium."
+                    </p>
+                    <p class="mx-auto mt-2 text-center font-semibold">
+                      Vella Seranda
+                    </p>
+                    <p class="text-center text-gray-500">CEO, Company C</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimoni Chat End -->
     <!-- Services section start -->
-    <section id="services" class="bg-slate-100 pb-16 pt-36">
+
+    <section id="services" class="bg-slate-100 pb-10 pt-36">
       <div class="container">
         <div class="w-full px-4">
           <div class="mx-auto mb-16 max-w-full text-center">
             <h4 class="mb-2 text-lg font-semibold text-primary">
+              Mengenai Creamy Foundation
+            </h4>
+            <h2
+              class="mb-10 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl"
+            >
+              Apa Itu Flawless With Me
+            </h2>
+
+            <!-- Test carousel start -->
+            <div
+              id="carouselExampleCaptions"
+              class="relative"
+              data-te-carousel-init
+              data-te-carousel-slide
+            >
+              <!--Carousel indicators-->
+              <div
+                class="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
+                data-te-carousel-indicators
+              >
+                <button
+                  type="button"
+                  data-te-target="#carouselExampleCaptions"
+                  data-te-slide-to="0"
+                  data-te-carousel-active
+                  class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-te-target="#carouselExampleCaptions"
+                  data-te-slide-to="1"
+                  class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-te-target="#carouselExampleCaptions"
+                  data-te-slide-to="2"
+                  class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+
+              <!--Carousel items-->
+              <div
+                class="relative w-full overflow-hidden after:clear-both after:block after:content-['']"
+              >
+                <!--First item-->
+                <div
+                  class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                  data-te-carousel-active
+                  data-te-carousel-item
+                  style="backface-visibility: hidden"
+                >
+                  <img
+                    src="dist/img/model-fwm-1.jpg"
+                    class="block w-full -rotate-90"
+                    alt="..."
+                  />
+                  <div
+                    class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block"
+                  >
+                    <div class="rounded-md bg-secondary bg-opacity-40 p-2">
+                      <h5 class="text-xl">Flawless With Me 1</h5>
+                      <p class="">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Saepe voluptatibus labore officiis.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!--Second item-->
+                <div
+                  class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                  data-te-carousel-item
+                  style="backface-visibility: hidden"
+                >
+                  <img
+                    src="dist/img/model-fwm-2.jpg"
+                    class="block w-full -rotate-90"
+                    alt="..."
+                  />
+                  <div
+                    class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block"
+                  >
+                    <div class="rounded-md bg-secondary bg-opacity-40 p-2">
+                      <h5 class="text-xl">Flawless With Me 2</h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Maxime obcaecati ut repellendus laudantium dolorem
+                        ducimus laborum fugit ipsa porro doloremque?
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <!--Third item-->
+                <div
+                  class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                  data-te-carousel-item
+                  style="backface-visibility: hidden"
+                >
+                  <img
+                    src="dist/img/model-fwm-3.jpg"
+                    class="block w-full -rotate-90"
+                    alt="..."
+                  />
+                  <div
+                    class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block"
+                  >
+                    <div class="rounded-md bg-secondary bg-opacity-40 p-2">
+                      <h5 class="text-xl">Flawless With Me 3</h5>
+                      <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Et fuga consequuntur laboriosam impedit, tenetur
+                        nihil ipsam ea.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Carousel controls - prev item-->
+              <button
+                class="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-dark opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-primary hover:no-underline hover:opacity-90 hover:outline-none focus:text-secondary focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+                type="button"
+                data-te-target="#carouselExampleCaptions"
+                data-te-slide="prev"
+              >
+                <span class="inline-block h-8 w-8">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="h-6 w-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15.75 19.5L8.25 12l7.5-7.5"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+                  >Previous</span
+                >
+              </button>
+              <!--Carousel controls - next item-->
+              <button
+                class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-dark opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-primary hover:no-underline hover:opacity-90 hover:outline-none focus:text-secondary focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+                type="button"
+                data-te-target="#carouselExampleCaptions"
+                data-te-slide="next"
+              >
+                <span class="inline-block h-8 w-8">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="h-6 w-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+                  >Next</span
+                >
+              </button>
+            </div>
+            <!-- Test carousel end -->
+            <p
+              class="text-md mt-5 text-justify font-medium leading-relaxed text-secondary md:text-lg"
+            >
+              Flawless With Me atau yang dikenal FWM merupakan produk yang cocok
+              untuk digunakan oleh wajah yang sensitif sekalipun dengan
+              kandungan Ingredients Grade A yang dapat menyerap dengan maksimal
+              kedalam kulit. Hanya tersedia satu jenis shade yang cocok untuk
+              semua warna kulit
+            </p>
+            <!-- <h4 class="mb-2 text-lg font-semibold text-primary">
               Layanan Kami
             </h4>
             <h2
@@ -293,7 +598,7 @@
             <p class="text-md font-medium text-secondary md:text-lg">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
               doloremque excepturi earum?
-            </p>
+            </p> -->
           </div>
         </div>
         <div
@@ -303,18 +608,18 @@
           <div class="mb-12 p-4 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
-                src="dist/img/testimonial-acne-1.png"
-                alt="Testimonial Acne"
+                src="dist/img/model-fwm-1-b.jpg"
+                alt="Flawless With Me Etalase Produk 1"
                 width="w-full"
               />
             </div>
             <h3 class="mb-3 mt-5 text-xl font-semibold text-dark">
-              Testimonial Acne
+              Mengapa harus flawless with me?
             </h3>
             <p class="text-base font-medium text-secondary">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
-              aliquam asperiores atque dolorem deleniti ullam nesciunt inventore
-              eum ducimus voluptatibus!
+              Karena diformulasikan dari bahan alami, pH balanced, dan non
+              paraben, non SLS, dan non fragrance. dijamun cocok dipakai untuk
+              wajah siapapun, terjamin dengan izin edar BPOM
             </p>
           </div>
           <!-- Tag 1 End -->
@@ -322,18 +627,22 @@
           <div class="mb-12 p-4 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
-                src="dist/img/testimonial-acne-2.png"
+                src="dist/img/model-fwm-2-b.jpg"
                 alt="Testimonial Acne"
                 width="w-full"
               />
             </div>
             <h3 class="mb-3 mt-5 text-xl font-semibold text-dark">
-              Testimonial Acne
+              Masih penasaran dengan Flawless With Me?
             </h3>
             <p class="text-base font-medium text-secondary">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
-              aliquam asperiores atque dolorem deleniti ullam nesciunt inventore
-              eum ducimus voluptatibus!
+              Facial With Me adalah ..... diformulasikan dari bahan alami, .....
+              , dan tanpa tambahan zat berbahaya. Sangat cocok dipakai untuk
+              ..... yang mengalami ...... , ...... , ....... . Kandungan yang
+              alami tanpa tambahan ...... , ...... , dan ..... membuat FWM cocok
+              untuk ...... dan aman dipakai mulai dari .... , .... , ..... .
+              100% ..... sangat laris di pasaran dan menempati posisi ......
+              untuk kategori .......
             </p>
           </div>
           <!-- Tag 2 End -->
@@ -341,17 +650,19 @@
           <div class="mb-12 p-4 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
-                src="dist/img/testimonial-glow-1.png"
-                alt="Testimonial Acne"
+                src="dist/img/model-fwm-3-b.jpg"
+                alt="Flawless With Me Produk 3"
                 width="w-full"
               />
             </div>
             <h3 class="mb-3 mt-5 text-xl font-semibold text-dark">
-              Testimonial Glow
+              Flawless With Me .....
             </h3>
             <p class="text-base font-medium text-secondary">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
-              esse enim quia.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. At porro
+              repellat soluta iusto amet dolorem doloremque perferendis quae
+              sapiente nostrum, dicta magnam excepturi facere, ut consequatur
+              beatae ex culpa nemo quas! Adipisci eligendi praesentium vel.
             </p>
           </div>
           <!-- Tag 3 End -->
@@ -359,18 +670,19 @@
           <div class="mb-12 p-4 md:w-1/2">
             <div class="overflow-hidden rounded-md shadow-md">
               <img
-                src="dist/img/testimonial-glow-2.png"
-                alt="Testimonial Acne"
+                src="dist/img/model-fwm-4-b.jpg"
+                alt="Flawless With Me ....."
                 width="w-full"
               />
             </div>
             <h3 class="mb-3 mt-5 text-xl font-semibold text-dark">
-              Testimonial Glow
+              Flawless With Me .......
             </h3>
             <p class="text-base font-medium text-secondary">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nemo
-              quis labore facilis, voluptatum non, veniam saepe fuga, eveniet in
-              temporibus hic quasi?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              dignissimos veniam excepturi perferendis voluptatem maiores
+              blanditiis fugit ratione consequatur nesciunt, nam, accusamus
+              consectetur reiciendis corporis!
             </p>
           </div>
           <!-- Tag 4 End -->
@@ -379,19 +691,23 @@
     </section>
     <!-- Services section end -->
     <!-- Testimonial section start -->
-    <section id="testimoni" class="bg-slate-700 pb-32 pt-36">
+
+    <section id="testimoni-example" class="bg-slate-700 pb-32 pt-36">
       <div class="container">
         <div class="w-full px-4">
           <div class="mx-auto mb-16 text-center">
-            <h4 class="mb-2 text-lg font-semibold text-primary">Testimonial</h4>
+            <h4 class="mb-2 text-lg font-semibold text-primary">
+              Aman gak sih produknya?
+            </h4>
             <h2
               class="mb-4 text-3xl font-bold text-white sm:text-4xl lg:text-5xl"
             >
-              Testimonial Reseller
+              100% FWM Sudah BPOM Approved
             </h2>
             <p class="text-md font-medium text-secondary md:text-lg">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum,
-              fugit.
+              Jadi bisa kamu jual kepada siapapun tanpa perlu takut ditanya
+              "produknya sudah bpom belum"? karena sekali lagi produk dan
+              kandungannya sudah sah terdaftar di izin edar BPOM.
             </p>
           </div>
         </div>
@@ -410,7 +726,7 @@
           >
             <img src="dist/img/logo-cpkb-transparan.png" alt="Logo CPKB" />
           </a>
-          <a
+          <!-- <a
             href="#"
             class="mx-4 max-w-[120px] opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8"
           >
@@ -421,7 +737,7 @@
             class="mx-4 max-w-[120px] opacity-60 grayscale transition duration-500 hover:opacity-100 hover:grayscale-0 lg:mx-6 xl:mx-8"
           >
             <img src="dist/img/badan-pom-logo.png" alt="BPOM Logo" />
-          </a>
+          </a> -->
         </div>
       </div>
     </section>
@@ -432,118 +748,215 @@
       <div class="container">
         <div class="w-full px-4">
           <div class="mx-auto mb-16 max-w-full text-center">
-            <h4 class="mb-2 text-lg font-semibold text-primary">Blog</h4>
+            <h4 class="mb-2 text-lg font-semibold text-primary">
+              Ini yang kamu tunggu-tunggu
+            </h4>
             <h2
               class="mb-4 text-3xl font-bold text-dark sm:text-4xl lg:text-5xl"
             >
-              Blog Terbaru
+              Bagaimana sih perhitungan komisi dan tabungan masa depannya?
             </h2>
-            <p class="text-md font-medium text-secondary md:text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptatum est sed molestias, perferendis minima, eos minus,
-              quidem ex dolorem esse sint at in!
+            <p
+              class="text-md text-justify font-medium text-secondary md:text-lg"
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
+              rem id a nisi aspernatur delectus recusandae accusantium quaerat
+              maiores, illo molestias tenetur architecto vero voluptatibus ut
+              neque dolorem voluptatum dignissimos?
             </p>
           </div>
         </div>
         <div class="flex flex-wrap">
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <!-- Page 1 -->
+          <div class="w-full px-4 lg:w-1/2">
             <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg">
               <img
-                src="dist/img/testimonial-acne-1.png"
+                src="dist/img/model-fwm-18.jpg"
                 alt="Blog Acne Tips"
                 class="w-full"
               />
               <div class="px-6 py-8">
                 <h3
-                  class="hover:primary-truncate mb-3 block text-xl font-semibold text-dark"
+                  class="hover:primary-truncate mb-3 block text-left text-xl font-semibold capitalize text-dark"
                 >
-                  Cara Menghilangkan Jerawat Dalam Sekejap
+                  Dapatkan keunggulan kompetitif dengan dukungan penuh dan kit
+                  pemasaran eksklusif langsung dari pusat
                 </h3>
-                <p class="mb-6 text-base font-medium text-secondary">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Reiciendis, quam?
+                <p
+                  class="mb-6 text-justify text-base font-medium text-secondary"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  omnis voluptate dolor iure perspiciatis exercitationem.
+                </p>
+                <p
+                  class="mb-6 text-justify text-base font-medium text-secondary"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  omnis voluptate dolor iure perspiciatis exercitationem.
+                </p>
+                <p
+                  class="mb-6 text-justify text-base font-medium text-secondary"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  omnis voluptate dolor iure perspiciatis exercitationem.
+                </p>
+                <p
+                  class="mb-6 text-justify text-base font-medium text-secondary"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  omnis voluptate dolor iure perspiciatis exercitationem.
                 </p>
                 <a
                   href="#"
-                  class="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:opacity-80"
-                  >Baca Selengkapnya</a
+                  class="mx-auto rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:opacity-80"
                 >
+                  Saya Sudah Paham, Mau Langsung Daftar!
+                </a>
               </div>
             </div>
           </div>
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <!-- Page 2 -->
+          <div class="w-full px-4 lg:w-1/2">
             <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg">
               <img
-                src="dist/img/testimonial-acne-2.png"
+                src="dist/img/model-fwm-18.jpg"
                 alt="Blog Acne Tips"
                 class="w-full"
               />
               <div class="px-6 py-8">
                 <h3
-                  class="hover:primary-truncate mb-3 block text-xl font-semibold text-dark"
+                  class="hover:primary-truncate mb-3 block text-left text-xl font-semibold capitalize text-dark"
                 >
-                  Cara Hempas Jerawat Dalam 24 Jam
+                  Sosial Media utama akan menampilkan informasi lengkap,
+                  termasuk data dan alamat toko Kamu.
                 </h3>
-                <p class="mb-6 text-base font-medium text-secondary">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Nostrum accusamus neque repudiandae impedit, vel porro,
-                  suscipit unde quam possimus laborum explicabo.
+                <p
+                  class="mb-6 text-justify text-base font-medium text-secondary"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  omnis voluptate dolor iure perspiciatis exercitationem.
+                </p>
+                <p
+                  class="mb-6 text-justify text-base font-medium text-secondary"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  omnis voluptate dolor iure perspiciatis exercitationem.
+                </p>
+                <p
+                  class="mb-6 text-justify text-base font-medium text-secondary"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  omnis voluptate dolor iure perspiciatis exercitationem.
+                </p>
+                <p
+                  class="mb-6 text-justify text-base font-medium text-secondary"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  omnis voluptate dolor iure perspiciatis exercitationem.
                 </p>
                 <a
                   href="#"
-                  class="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:opacity-80"
-                  >Baca Selengkapnya</a
+                  class="mx-auto rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:opacity-80"
                 >
+                  Saya Sudah Paham, Mau Langsung Daftar!
+                </a>
               </div>
             </div>
           </div>
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <!-- Page 3 -->
+          <div class="w-full px-4 lg:w-1/2">
             <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg">
               <img
-                src="dist/img/testimonial-glow-1.png"
+                src="dist/img/model-fwm-18.jpg"
                 alt="Blog Acne Tips"
                 class="w-full"
               />
               <div class="px-6 py-8">
                 <h3
-                  class="hover:primary-truncate mb-3 block text-xl font-semibold text-dark"
+                  class="hover:primary-truncate mb-3 block text-left text-xl font-semibold capitalize text-dark"
                 >
-                  Glowing Di Bulan Puasa?
+                  Nikmati manfaat dari bantuan pusat dalam menarik calon
+                  pelanggan potensial untuk bisnis Kamu.
                 </h3>
-                <p class="mb-6 text-base font-medium text-secondary">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Adipisci tenetur, qui reprehenderit non laudantium molestias.
+                <p
+                  class="mb-6 text-justify text-base font-medium text-secondary"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  omnis voluptate dolor iure perspiciatis exercitationem.
+                </p>
+                <p
+                  class="mb-6 text-justify text-base font-medium text-secondary"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  omnis voluptate dolor iure perspiciatis exercitationem.
+                </p>
+                <p
+                  class="mb-6 text-justify text-base font-medium text-secondary"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  omnis voluptate dolor iure perspiciatis exercitationem.
+                </p>
+                <p
+                  class="mb-6 text-justify text-base font-medium text-secondary"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  omnis voluptate dolor iure perspiciatis exercitationem.
                 </p>
                 <a
                   href="#"
-                  class="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:opacity-80"
-                  >Baca Selengkapnya</a
+                  class="mx-auto rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:opacity-80"
                 >
+                  Saya Sudah Paham, Mau Langsung Daftar!
+                </a>
               </div>
             </div>
           </div>
-          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+          <!-- Page 4 -->
+          <div class="w-full px-4 lg:w-1/2">
             <div class="mb-10 overflow-hidden rounded-xl bg-white shadow-lg">
               <img
-                src="dist/img/testimonial-glow-2.png"
+                src="dist/img/model-fwm-18.jpg"
                 alt="Blog Acne Tips"
                 class="w-full"
               />
               <div class="px-6 py-8">
                 <h3
-                  class="hover:primary-truncate mb-3 block text-xl font-semibold text-dark"
+                  class="hover:primary-truncate mb-3 block text-left text-xl font-semibold capitalize text-dark"
                 >
-                  Tips Glowing di Umur 45 Tahun ke Atas
+                  Kamu dapat memiliki kepastian bahwa kami dengan tegas tidak
+                  menjual produk secara eceran, komitmen menjaga eksklusivitas
+                  produk kamu.
                 </h3>
-                <p class="mb-6 text-base font-medium text-secondary">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Reiciendis, quam?
+                <p
+                  class="mb-6 text-justify text-base font-medium text-secondary"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  omnis voluptate dolor iure perspiciatis exercitationem.
+                </p>
+                <p
+                  class="mb-6 text-justify text-base font-medium text-secondary"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  omnis voluptate dolor iure perspiciatis exercitationem.
+                </p>
+                <p
+                  class="mb-6 text-justify text-base font-medium text-secondary"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  omnis voluptate dolor iure perspiciatis exercitationem.
+                </p>
+                <p
+                  class="mb-6 text-justify text-base font-medium text-secondary"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                  omnis voluptate dolor iure perspiciatis exercitationem.
                 </p>
                 <a
                   href="#"
-                  class="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:opacity-80"
-                  >Baca Selengkapnya</a
+                  class="mx-auto rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:opacity-80"
                 >
+                  Saya Sudah Paham, Mau Langsung Daftar!
+                </a>
               </div>
             </div>
           </div>
@@ -551,10 +964,76 @@
       </div>
     </section>
     <!-- Blog section end -->
+    <!-- CTA start -->
+    <section id="cta" class="bg-slate-100 pb-10 pt-10">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="mx-auto mb-16 max-w-full text-center">
+            <h4 class="mb-2 text-lg font-semibold text-primary">
+              Jangan berlama-lama lagi, ayo amankan slot pendaftaran kamu
+              sekarang juga
+            </h4>
+            <h2
+              class="mb-10 text-center text-2xl font-semibold capitalize text-dark sm:text-4xl lg:text-5xl"
+            >
+              Jadilah bagian dari tim kami dan mulai mengejar kesuksesan sebagai
+              reseller kami!
+            </h2>
+            <h2
+              class="mb-10 text-center font-semibold text-dark sm:text-2xl lg:text-3xl"
+            >
+              Klik tombol di bawah ini untuk mendaftar sekarang juga melalui
+              WhatsApp.
+            </h2>
+            <p class="text-center text-6xl font-extrabold text-red-800">
+              <span class="text-dark">❤❤Cuma❤❤</span> <br />118ribuan
+            </p>
+
+            <div class="container mt-10">
+              <div class="w-full">
+                <div class="flex items-center justify-center">
+                  <a
+                    href="https://bit.ly/daftar-reseller-dr-netha"
+                    target="_blank"
+                  >
+                    <div
+                      class="mx-auto flex items-center rounded-full border-2 border-primary bg-slate-200 p-5 transition ease-in-out hover:bg-white"
+                    >
+                      <!-- Whatsapp icon start -->
+                      <div
+                        class="mr-3 flex h-9 w-9 items-center justify-center rounded-full border border-slate-300 text-primary transition ease-in-out hover:border-primary hover:bg-primary hover:text-white"
+                      >
+                        <svg
+                          role="img"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="700px"
+                          class="fill-current"
+                        >
+                          <title>WhatsApp</title>
+                          <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                          />
+                        </svg>
+                      </div>
+
+                      <!-- Whatsapp icon end -->
+                      <h1 class="text-1xl font-extrabold">
+                        KLIK ADMIN WHATSAPP
+                      </h1>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CTA end -->
     <!-- Footer section start -->
     <footer class="bg-dark pb-10 pt-24">
       <div class="container">
-        <div class="flex flex-wrap"></div>
         <div class="w-full pt-2">
           <div class="mb-5 flex items-center justify-center">
             <!-- Youtube icon start -->
@@ -663,6 +1142,11 @@
       ><span class="mt-2 block h-5 w-5 rotate-45 border-l-2 border-t-2"></span
     ></a>
     <!-- Back to top  end -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="dist/js/script.js"></script>
+    <script
+      type="text/javascript"
+      src="node_modules/tw-elements/dist/js/tw-elements.umd.min.js"
+    ></script>
   </body>
 </html>
