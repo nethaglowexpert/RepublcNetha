@@ -4211,6 +4211,15 @@ video {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:font-extrabold {
+    font-weight: 800;
+  }
 }
 
 @media (min-width: 1024px) {
